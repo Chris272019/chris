@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  color: #333;
+}
+
+.profile-container {
+  margin-bottom: 20px;  /* Space between the image and the heading */
+}
+
+.profile-picture {
+  width: 150px;         /* Adjust the width of the profile image */
+  height: 150px;        /* Make the height same as the width for a square image */
+  border-radius: 50%;   /* Circular image */
+  object-fit: cover;    /* Ensure the image covers the container area */
+}
+
+nav a {
+  margin: 0 15px;       /* Add space between the navigation links */
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #007bff;
+}

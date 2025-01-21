@@ -1,0 +1,12 @@
+.skills {
+    padding: 2rem;
+    background-color: #eef;
+  }
+  .skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .skills li {
+    margin: 0.5rem 0;
+  }
+  

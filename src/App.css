@@ -1,6 +1,6 @@
 .App {
   min-height: 100vh; /* Ensures content can extend beyond viewport */
-  background: url('src/images/bg.jpg'); /* Image */
+  background-image: url('images/bg.jpg');
   background-size: cover; /* Ensure the background covers the entire page */
   background-position: center; /* Center the background image */
   background-attachment: fixed; /* Keep the background fixed while scrolling */

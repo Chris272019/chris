@@ -6,12 +6,20 @@ function Skills() {
 
   return (
     <section id="skills" className="skills">
-      <h2>Skills</h2>
-      <ul>
-        {skills.map((skill, index) => (
-          <li key={index}>{skill}</li>
-        ))}
-      </ul>
+      <div className="skills-inner">
+        {/* Front of the card */}
+        <div className="skills-front">
+          <h2>Skills</h2>
+        </div>
+        {/* Back of the card: Display skills list */}
+        <div className="skills-back">
+          <ul>
+            {skills.map((skill, index) => (
+              <li key={index}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </section>
   );
 }

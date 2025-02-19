@@ -9,8 +9,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <About />
-      <Skills />
+      <div className="card-container">
+        <About />
+        <Skills />
+      </div>
       <Footer />
     </div>
   );
